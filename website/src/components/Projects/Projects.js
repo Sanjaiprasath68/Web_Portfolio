@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import TypingTestGame from "../../Assets/Projects/TypingTestGame.png";
+import Todolist from "../../Assets/Projects/Todolist.png";
+import PostifyApp from "../../Assets/Projects/PostifyApp.png";
 import news_Api from "../../Assets/Projects/news_Api.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import MemeGenerator from "../../Assets/Projects/MemeGenerator.png";
+import ClothingEmporium from "../../Assets/Projects/ClothingEmporium.png";
 
 function Projects() {
   return (
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={news_Api}
               isBlog={false}
               title="NewsApi"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Experience real-time news updates with our MERN stack NewsAPI project. Using MongoDB, Express.js, React, and Node.js, we deliver a seamless browsing experience. Browse categories, search topics, and read detailed articles effortlessly. Stay informed with our intuitive, responsive interface."
               ghLink="https://github.com/Sanjaiprasath68/News_Api"
               demoLink="https://news-articles-six.vercel.app/"
             />
@@ -34,57 +34,56 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ClothingEmporium}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Clothing_E-Commerce"
+              description="Clothing Emporium offers a seamless shopping experience with React, showcasing the latest trends in fashion for style-conscious shoppers."
+              ghLink="https://github.com/Sanjaiprasath68/Clothing_E-Commerce"
+              demoLink="https://clothing-emporium.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={PostifyApp}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Postify"
+              description="Streamline your social media presence with our post application. Effortlessly create, schedule, and track posts across all your platforms from one convenient dashboard."
+              ghLink="https://github.com/Sanjaiprasath68/postify"
+              demoLink="https://postify-media.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={TypingTestGame}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="TypingTestGame"
+              description="Typing-speed game platform, challenging users to improve their typing skills while competing against friends or the clock, fostering a fun and educational experience."
+              ghLink="https://github.com/Sanjaiprasath68/Typing-Test-Game-"
+              demoLink="https://typingspeed-game.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={MemeGenerator}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="MemeGenerator"
+              description="Dynamic meme-generator platform, allowing users to create and share humorous content effortlessly, enhancing engagement and entertainment online."
+              ghLink="https://github.com/Sanjaiprasath68/memegenerator"
+              demoLink="https://makes-meme.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Todolist}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Todolist"
+              description="Creating an engaging and efficient to-do list application with the MERN stack involves orchestrating several key components seamlessly. Begin by crafting a dynamic MongoDB schema to meticulously organize tasks and user data, complemented by Express.js to develop robust RESTful APIs for smooth backend functionality."
+              ghLink="https://github.com/Sanjaiprasath68/todolist"
+              // demoLink="https://todolist/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
