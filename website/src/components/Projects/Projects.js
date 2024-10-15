@@ -37,7 +37,7 @@ function Projects() {
               imgPath={ClothingEmporium}
               isBlog={false}
               title="Clothing_E-Commerce"
-              description="Clothing Emporium offers a seamless shopping experience with React, showcasing the latest trends in fashion for style-conscious shoppers."
+              description="Clothing Emporium offers a seamless shopping experience with React, showcasing the latest trends in fashion for style-conscious shoppers.Begin by crafting a dynamic MongoDB schema to meticulously organize tasks and user data."
               ghLink="https://github.com/Sanjaiprasath68/Clothing_E-Commerce"
              
             />
