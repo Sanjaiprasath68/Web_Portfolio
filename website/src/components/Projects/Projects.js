@@ -81,7 +81,7 @@ function Projects() {
               imgPath={Todolist}
               isBlog={false}
               title="Todolist"
-              description="Creating an engaging and efficient to-do list application with the MERN stack involves orchestrating several key components seamlessly. Begin by crafting a dynamic MongoDB schema to meticulously organize tasks and user data, complemented by Express.js to develop robust RESTful APIs for smooth backend functionality."
+              description="Creating an engaging and efficient to-do list application with the MERN stack involves orchestrating several key components seamlessly."
               ghLink="https://github.com/Sanjaiprasath68/todolist"
               // demoLink="https://todolist/"      <--------Please include a demo link here 
             />
