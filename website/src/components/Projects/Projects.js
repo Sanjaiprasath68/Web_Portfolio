@@ -39,7 +39,7 @@ function Projects() {
               title="Clothing_E-Commerce"
               description="Clothing Emporium offers a seamless shopping experience with React, showcasing the latest trends in fashion for style-conscious shoppers."
               ghLink="https://github.com/Sanjaiprasath68/Clothing_E-Commerce"
-              demoLink="https://clothing-emporium.netlify.app/"
+             
             />
           </Col>
 
