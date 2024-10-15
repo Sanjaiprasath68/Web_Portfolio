@@ -28,7 +28,7 @@ function Projects() {
               title="NewsApi"
               description="Experience real-time news updates with our MERN stack NewsAPI project. Using MongoDB, Express.js, React, and Node.js, we deliver a seamless browsing experience. Browse categories, search topics, and read detailed articles effortlessly. Stay informed with our intuitive, responsive interface."
               ghLink="https://github.com/Sanjaiprasath68/News_Api"
-              demoLink="https://news-articles-six.vercel.app/"
+             
             />
           </Col>
 
@@ -39,6 +39,7 @@ function Projects() {
               title="Clothing_E-Commerce"
               description="Clothing Emporium offers a seamless shopping experience with React, showcasing the latest trends in fashion for style-conscious shoppers.Begin by crafting a dynamic MongoDB schema to meticulously organize tasks and user data."
               ghLink="https://github.com/Sanjaiprasath68/Clothing_E-Commerce"
+              demoLink="https://clothing-emporium.netlify.app/"
              
             />
           </Col>
